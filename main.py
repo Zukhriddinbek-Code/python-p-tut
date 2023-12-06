@@ -158,14 +158,18 @@
 # if __name__ == '__main__':
 #     fire.Fire(hello)
 
+import numpy as np
+import array as ar
+
+
 class Vehicle:
-    def start():
+    def start(self):
         print('engine started')
 
-    def move():
+    def move(self):
         print('engine is moving')
 
-    def stop():
+    def stop(self):
         print('engine stopped')
 
 
@@ -179,3 +183,14 @@ class Truck(Vehicle):
 
 class Train(Vehicle):
     pass
+
+
+c = Car()
+# c.stop()
+
+
+height = ar.array('f', [1.2, 2.3, 3.5, 4])
+
+
+ar = np.array([1, 2, 3])
+print(ar)
