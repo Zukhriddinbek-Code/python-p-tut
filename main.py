@@ -158,39 +158,58 @@
 # if __name__ == '__main__':
 #     fire.Fire(hello)
 
-import numpy as np
-import array as ar
+# import numpy as np
+# import array as ar
 
 
-class Vehicle:
-    def start(self):
-        print('engine started')
+# class Vehicle:
+#     def start(self):
+#         print('engine started')
 
-    def move(self):
-        print('engine is moving')
+#     def move(self):
+#         print('engine is moving')
 
-    def stop(self):
-        print('engine stopped')
-
-
-class Car(Vehicle):
-    pass
+#     def stop(self):
+#         print('engine stopped')
 
 
-class Truck(Vehicle):
-    pass
+# class Car(Vehicle):
+#     pass
 
 
-class Train(Vehicle):
-    pass
+# class Truck(Vehicle):
+#     pass
 
 
-c = Car()
-# c.stop()
+# class Train(Vehicle):
+#     pass
 
 
-height = ar.array('f', [1.2, 2.3, 3.5, 4])
+# c = Car()
+# # c.stop()
 
 
-ar = np.array([1, 2, 3])
-print(ar)
+# height = ar.array('f', [1.2, 2.3, 3.5, 4])
+
+
+# ar = np.array([1, 2, 3])
+# print(ar)
+# def add_book(title, author, genre='', publisher='', year_of_publication='', **extra_details):
+#     print(f"Title: {title}")
+#     print(f"Author: {author}")
+#     if genre:
+#         print(f"Genre: {genre}")
+#     if publisher:
+#         print(f"Publisher: {publisher}")
+#     if year_of_publication:
+#         print(f"Year of Publication: {year_of_publication}")
+#     for key, value in extra_details.items():
+#         print(f"{key.capitalize()}: {value}")
+
+
+# add_book('fight title')
+
+# health_data = [{}]
+
+
+# high_calorie_individuals = [person['individual_name'] for person in health_data where person['calorie_intake'] > 2500]
